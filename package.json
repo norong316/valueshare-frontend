@@ -45,7 +45,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "lint:fix": "eslint –fix ‘src/**/*/.{js,jsx}'",
-    "dev":"next dev"
+    "dev":"next dev",
+    "vercel-deploy": "next build && next export"
   },
   "eslintConfig": {
     "extends": [
