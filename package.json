@@ -40,11 +40,12 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "next start",
+    "build": "next build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "lint:fix": "eslint –fix ‘src/**/*/.{js,jsx}'"
+    "lint:fix": "eslint –fix ‘src/**/*/.{js,jsx}'",
+    "dev":"next dev"
   },
   "eslintConfig": {
     "extends": [
