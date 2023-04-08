@@ -133,7 +133,7 @@ function Register() {
   const onSubmit = async (data) => {
     try {
       const res = await axios.post(
-        "http://34.64.139.64/api/auth/register",
+        "hhttps://port-0-back-end-3zspi2nlg852u5f.sel3.cloudtype.app/auth/register",
         data
       );
 
