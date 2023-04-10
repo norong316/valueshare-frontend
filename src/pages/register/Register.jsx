@@ -133,7 +133,7 @@ function Register() {
   const onSubmit = async (data) => {
     try {
       const res = await axios.post(
-        "http://52.79.73.94/",
+        "http://52.79.73.94",
         data
       );
 
