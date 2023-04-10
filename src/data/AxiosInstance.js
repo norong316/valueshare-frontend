@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const AxiosInstance = axios.create({
-  baseURL: "https://port-0-back-end-3zspi2nlg852u5f.sel3.cloudtype.app",
+  baseURL: "http://52.79.73.94/",
 });
 const excludeIncludeTokenURL = ["/login", "/register"];
 
